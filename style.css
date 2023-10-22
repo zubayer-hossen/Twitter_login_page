@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #ecf0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+
+    height: 100vh;
+}
+
+
+.container {
+    height: 450px;
+    width: 310px;
+
+    background-color: #ecf0f3;
+
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    border-radius: 20px;
+
+
+}
+
+
+.container .logo {
+    height: 100px;
+    width: 100px;
+
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 65px;
+    color: #1784e9;
+}
+
+
+.container .logo i {
+    line-height: 100px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #1784e9;
+
+    text-shadow: 7px 7px 10px white, -7px -7px 10px #cbced1;
+    ;
+}
+
+
+.container .log_form {
+    width: 80%;
+    margin-top: 20px;
+
+    margin: 0 auto;
+
+
+}
+
+
+
+
+input,
+label {
+    display: block;
+
+
+
+
+
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    caret-color: red;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+
+    background-color: #ecf0f3;
+
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #1784e9;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+
+
+
+
+input::placeholder {
+    color: gray;
+}
