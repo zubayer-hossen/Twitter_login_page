@@ -111,3 +111,17 @@ label {
 input::placeholder {
     color: gray;
 }
+
+p {
+    color: #8080805c;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+p a {
+    text-decoration: none;
+}
